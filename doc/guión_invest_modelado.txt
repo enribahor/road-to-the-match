@@ -1,0 +1,44 @@
+Introducción:
+-------------
+    App para movil que permite a sus usuarios conocer la ubicación de los bares donde televisan sus eventos deportivos favoritos.
+    La idea de esta app surgió en nosotros de la necesidad de las personas, especialmente aquellas que residen temporalmente fuera de su ciudad de residencia habitual, para encontrar locales deonde se emitan eventos del deporte que les gusta, sobre todo cuando sus preferencias no coinciden con los de la mayoría (rugby, balonmano, boxeo, golf, atletismo, vela, rallies, etc).
+
+Investigación:
+--------------
+    Identificamos una serie de perfiles de usuarios a quienes les puede interesar nuestra aplicación, principalmente:
+    Usuarios ocasionales.
+    - Usuario que para ver un evento deportivo acude de vez en cuando a un bar.
+    Usuarios habituales.
+    - Usuario que no puede perderse un evento deportivo.
+    Usuario Bar.
+    - Usuario que utiliza la aplicación para informar de los eventos deportivos.
+    Usuario conformista.
+    - Usuario que da más importancia a la compañía y al ambiente que al propio evento. 
+    Usuario exigente.
+    - Usuario que valora más la calidad del bar (precio, televisión, ambiente…).
+    Usuario “Erasmus”.
+    - Usuario que ha cambiado su lugar de residencia y por lo tanto cambian también los equipos y deportes.
+
+    A continuación hicimos una serie de entrevistas destiandas a conocer mejor a nuestros potenciales usuarios intentando cubrir todos los posibles dentro del rango, en dichas entrevistas destacamos principalmente sus aptitudes comunicativas y sociales, así como las tecnológicas e intereses personales.
+    También hicimos un cuestionario en google form y lo compartimos por whatsapp a 30 personas.
+
+    Respecto al análisis de la competencia estudiamos las siguientes:
+        FourSquare, es una aplicación que filtra lugares por ubicación e interés (ocio, desayuno, vida nocturna…) ofreciéndonos una lista de recomendaciones. Además permite tener lugares favoritos asociados a tu usuario e integra las redes sociales en la aplicación.
+        TimPik, es una aplicación para organizar eventos deportivos de todo tipo: partidos de fútbol, de tenis, etc. En la misma aplicación te apuntas a los eventos que quieras mientras haya plazas libres. Puedes crear, además de tu usuario, un club concreto.
+        El Tenedor, es muy similar a Foursquare, pero orientada a la recomendación de restaurantes, facilitando filtrar por hora y día. Realiza recomendaciones en función de varios aspectos: promociones, valoraciones de usuarios…
+
+    En cuanto la lista de factoides, podemos destacar que tanto a los usuarios ocasionales, como a los habituales, prefieren un bar cercano y con pantalla grande, la mayoría suele preguntar en el mismo bar si televisan el evento que buscan, solo para los del grupo de usuarios más exigente, prima el ambiente sobre la distancia y en general a todos les gustaría saber con antelación dónde emiten lo que les gusta.
+    Respecto a los responsables de hostelería, todos los entrevistados destacaron el valor de esta aplicación como medio publicitario de su local, igualmente resaltaron la importancia de poder constatar de alguna manera la veracidad de la información introducida (verificación de usuarios o valoraciones personales) y que la aplicación posea interfaces sencillas.
+    
+Modelado:
+---------
+    Una vez analizados los factoides y elaborados los diagramas de afinidad correspondientes, decidimos seguir el proceso Top-Down, para construir personas en función de los roles que éstas poseen como tipo de usuario, en nuestro caso:
+    -Cliente ocasional: persona que se descarga la aplicación, para obtener información de los eventos disponibles.
+    -Consumidor o cliente afín: persona que una vez descargada la aplicación se registra, para poder añadir eventos.
+    -Responsable Bar: persona encargada de llevar a cabo el marketing del bar.
+
+    Como ya he dicho previamente, las personas no son usuarios, sino tipos de usuario que en nuestro caso se agrupan por roles de interacción.
+    
+    Como ejemplo de escenario hemos destacado el que podeis leer en pantalla, que corresponde al de una persona que encaja en el tipo de usuario habitual registrado, en este caso el escenario, solo describe, la búsqueda de un evento determinado, pero por sus características propias, esta persona posee varios escenarios posibles.
+    Tanto los usuarios registrados como los bares comparten gran parte de los requisitos especificados para nuestro sistema, los requisitos más genéricos los poseen los usuarios sin registro, y de todos ellos, hemos destacado los más importantes (quizá habría que añadir el requisito de Verificación (acción) de la información del evento (objeto) en la pantalla del evento (contexto) ).
+    

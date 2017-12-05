@@ -1,0 +1,2 @@
+Hemos detectado ciertos problemas con el Adobe Reader cuando dos enlaces se superponen.
+Estos problemas no se dan en balsamiq o si se abre el pdf con el navegador Chrome.
